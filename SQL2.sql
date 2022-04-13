@@ -1,0 +1,18 @@
+-- INSERT INTO employee VALUES (4,"New-Chekuri","Male",20,"1 765 236 9873");
+-- SELECT * FROM employee;
+-- INSERT INTO department VALUES (4,"IT","Computer work");
+-- SELECT * FROM department;
+-- UPDATE department SET Job_Dept = "I-Technology" WHERE Job_ID = 4;
+-- SELECT * FROM department;
+-- UPDATE employee SET Name = 'Updated-Chekuri' WHERE Employee_ID = 4;
+-- SELECT * FROM employee;
+-- DELETE FROM payroll WHERE Emp_ID = 2;
+-- SELECT * FROM payroll;
+-- SELECT * FROM payroll WHERE payroll_ID = 1;
+-- SELECT * FROM employee JOIN leavee WHERE employee.Employee_ID=leavee.Emp_ID;
+-- SELECT * FROM employee JOIN payroll WHERE employee.Employee_ID=payroll.Emp_ID;
+-- SELECT COUNT(Amount) AS Total_Payroll FROM payroll;
+-- SELECT SUM(Amount) AS Amount FROM payroll;
+-- SELECT COUNT(Name) AS Total_Employees FROM employee;
+-- SELECT * FROM employee,department;
+
